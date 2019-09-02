@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         WebView webView=findViewById(R.id.ee);
-        webView.loadUrl("http://www.google.com");
+        webView.loadUrl("http://www.goe.com");
         webView.canGoBack();
         webView.setWebViewClient(new WebViewClient());
 
